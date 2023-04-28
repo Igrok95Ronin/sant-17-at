@@ -1,0 +1,17 @@
+.header {
+}
+.header__box {
+}
+.header__title {
+    font-weight: 700;
+    font-size: clamp(32px,5vw,60px);
+    text-align: center;
+    color: #fff;
+    background-color: $mainColor;
+}
+.header__greenLine {
+    background-color: $mainColor2;
+    height: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
