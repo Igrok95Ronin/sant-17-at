@@ -1,0 +1,23 @@
+.forms {
+    margin-bottom: 10px;
+}
+.forms__wrapper {
+}
+.forms__box {
+}
+.forms__title {
+    font-weight: 700;
+    background-color: $mainColor;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.forms__button {
+    background-color: $mainColor;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        background-color: $mainColor2;
+        color: #fff;
+    }
+}
