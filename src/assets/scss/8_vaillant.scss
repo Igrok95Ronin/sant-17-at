@@ -131,6 +131,7 @@
 .vaillant__right-topImg {
     max-width: 100%;
     min-height: 100%;
+    object-fit: contain;
 }
 .vaillant__right-bottom {
     display: flex;
