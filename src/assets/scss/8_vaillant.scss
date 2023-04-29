@@ -1,0 +1,198 @@
+.vaillant {
+    padding: 30px 0;
+}
+.vaillant__box {
+}
+.vaillant__left {
+}
+.vaillant__left-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.vaillant__left-top-img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+.vaillant__left-middle {
+    background-color: $mainColor;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 50px 0;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url(../img/ok13.png);
+        background-size: cover;
+        width: 250px;
+        height: 400px;
+        right: 0;
+        transform: translateX(-50%);
+        top: -250px;
+        z-index: 99;
+    }
+}
+.vaillant__left-middle-inner {
+    padding: 10px;
+    text-align: center;
+}
+.vaillant__left-middle-dscr {
+}
+.vaillant__left-middle-title {
+    font-weight: 700;
+}
+
+
+.vaillant__left-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.vaillant__left-bottom-left {
+    padding: 10px 10px 0 0;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: $mainColor;
+        height: 30%;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+    }
+}
+.vaillant__left-bottom-left-img {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.vaillant__left-bottom-right {
+    margin-top: 50px;
+}
+.vaillant__left-bottom-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+    li{
+        font-weight: 700;
+        font-size: 20px;
+        padding-left: 40px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ok2.png);
+            background-size: cover;
+            width: 30px;
+            height: 30px;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+.vaillant__left-bottom-right-inner {
+    color: #fff;
+    text-align: center;
+}
+.vaillant__left-bottom-right-dscr1 {
+    background-color: $mainColor;
+    padding: 10px 0 5px;
+}
+.vaillant__left-bottom-right-dscr2 {
+    background-color: $mainColor;
+    padding: 0px 0 10px;
+}
+.vaillant__left-bottom-right-innerImg {
+}
+.vaillant__left-bottom-right-img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+
+
+.vaillant__right {
+    padding: 0 12px;
+}
+.vaillant__right-top {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.vaillant__right-topImg {
+    max-width: 100%;
+    min-height: 100%;
+}
+.vaillant__right-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.vaillant__right-bottom-btnW {
+}
+.vaillant__right-bottom-btn {
+    background-color: $mainColor;
+    color: #fff;
+    padding: 10px 10px 10px 40px;
+    transition: .3s;
+    letter-spacing: 1px;
+    font-weight: 700;
+    span{
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ok4.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            left: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &:hover {
+        color: #fff;
+        background-color: $mainColor2;
+    }
+}
+.vaillant__right-bottom-bntMW {
+}
+.vaillant__right-bottom-btnM {
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 10px 10px 40px;
+    transition: .3s;
+    span{
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ok21.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 15px;
+            left: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &:hover {
+        background-color: $mainColor2;
+        color: #fff;
+    }
+}
