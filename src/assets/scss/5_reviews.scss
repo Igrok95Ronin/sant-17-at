@@ -1,0 +1,27 @@
+.reviews {
+    padding: 30px 0;
+}
+.reviews__title {
+    background-color: $mainColor;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.reviews__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.reviews__left {
+}
+.reviews__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.reviews__right {
+}
+.reviews__img1 {
+    max-width: 100%;
+    max-height: 100%;
+}
